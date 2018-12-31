@@ -58,7 +58,7 @@ services:
     networks:
     - back
   cron:
-    image: nextcloud:14-fpm
+    image: nextcloud:15-fpm
     links:
       - db
     volumes_from:
